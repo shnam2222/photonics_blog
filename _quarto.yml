@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Research Notes"
+  description: "Notes on photonics, nanophotonics, inverse design, and related research."
+  site-url: https://shnam2222.github.io/photonics_blog/
+  repo-url: https://github.com/shnam2222/photonics_blog
+
+  navbar:
+    right:
+      - text: Home
+        href: index.qmd
+      - text: About
+        href: about.qmd
+      - icon: github
+        href: https://github.com/shnam2222
+
+  search: true
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-copy: true
+    code-overflow: wrap
