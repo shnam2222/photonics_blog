@@ -1,30 +1,30 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Research Notes",
+    "title": "Photonics Notes",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nAug 22, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nAug 19, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "INTRODUCTION\n\n\nNotes, tutorials, and perspectives on modern photonics."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
+    "objectID": "index.html#explore",
+    "href": "index.html#explore",
+    "title": "Photonics Notes",
+    "section": "Explore",
+    "text": "Explore\n\n\n 01 / FOUNDATIONS\n\nFoundations\n\n\nElectromagnetism, polarization, waveguides, and the fundamental tools of photonics.\n\n\n\n\n 02 / RESONANCES\n\nOptical Resonances\n\n\nGuided-mode resonances, plasmons, coupled-mode theory, QNMs, BICs, and more.\n\n\n\n\n 03 / METASURFACES\n\nMetasurfaces\n\n\nHuygens metasurfaces, geometric phase, resonant structures, and active control.\n\n\n\n\n 04 / COMPUTATIONAL\n\nComputational & AI Photonics\n\n\nNumerical simulation, inverse design, optimization, and machine learning.\n\n\n\n\n 05 / RESEARCH\n\nMy Research\n\n\nResearch projects, technical notes, simulations, and ongoing ideas.\n\n\n\n\n 06 / SPECIAL TOPICS\n\nSpecial Topics\n\n\nGuest contributions, research perspectives, and focused topics."
+  },
+  {
+    "objectID": "index.html#recent-topics",
+    "href": "index.html#recent-topics",
+    "title": "Photonics Notes",
+    "section": "Recent Topics",
+    "text": "Recent Topics\nNew articles and research notes will appear here."
+  },
+  {
+    "objectID": "author.html",
+    "href": "author.html",
     "title": "About",
     "section": "",
     "text": "About this blog"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
   }
 ]
