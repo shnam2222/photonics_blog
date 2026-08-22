@@ -62,7 +62,7 @@
 /* Main content */
 
 .author-main {
-  max-width: 850px;
+  max-width: none;
 }
 
 .author-main h1 {
