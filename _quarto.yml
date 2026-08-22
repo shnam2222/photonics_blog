@@ -30,7 +30,8 @@ website:
       - icon: github
         href: https://github.com/shnam2222
 
-  search: true
+  search:
+    keyboard-shortcut: ["?"]
 
 format:
   html:

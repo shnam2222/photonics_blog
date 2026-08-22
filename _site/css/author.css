@@ -88,7 +88,7 @@
 
 /* Mobile */
 
-@media (max-width: 800px) {
+@media (max-width: none) {
 
   .author-layout {
     width: 90%;
