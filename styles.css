@@ -1,9 +1,13 @@
+/* =========================================
+   GLOBAL SITE STYLE
+   ========================================= */
+
+
 /* Main page */
 
 body {
   background-color: #eef6ff;
   color: #222831;
-
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.05rem;
   line-height: 1.7;
@@ -40,7 +44,7 @@ a:hover {
 /* Article width */
 
 main.content {
-  max-width: 850px;
+  max-width: none;
 }
 
 
@@ -65,143 +69,4 @@ pre {
   background-color: #f7faff !important;
   border: 1px solid #d6e4f1;
   border-radius: 6px;
-}
-
-/* Homepage */
-
-.home-hero {
-  text-align: center;
-  padding: 70px 20px 50px;
-}
-
-.home-hero h1 {
-  font-size: 4rem;
-  margin-bottom: 10px;
-}
-
-.home-subtitle {
-  color: #657586;
-  font-size: 1.2rem;
-}
-
-
-/* Portal */
-
-#explore {
-  text-align: center;
-  margin-bottom: 30px;
-}
-/* Portal */
-
-#explore {
-  text-align: center;
-  margin: 50px 0 30px;
-}
-
-.portal-grid {
-  max-width: 1100px;
-  margin: 0 auto 80px;
-
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.portal-card {
-  background: rgba(255, 255, 255, 0.65);
-  border: 1px solid #d6e4f1;
-  border-radius: 12px;
-  padding: 25px;
-}
-
-.portal-card a {
-  display: block;
-  color: inherit;
-  text-decoration: none;
-}
-
-.portal-card span {
-  color: #6f94bd;
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
-}
-
-.portal-card h3 {
-  margin: 15px 0 10px;
-  font-size: 1.4rem;
-}
-
-.portal-card p {
-  color: #657586;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  margin: 0;
-}
-
-.portal-card:hover {
-  transform: translateY(-3px);
-  border-color: #9bbbdc;
-}
-
-
-/* Mobile */
-
-@media (max-width: 800px) {
-  .portal-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-/* Mobile */
-
-@media (max-width: 700px) {
-
-  .portal-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .home-hero h1 {
-    font-size: 3rem;
-  }
-
-}
-
-/* Homepage intro */
-
-.intro-panel {
-  width: 92%;
-  max-width: 1500px;
-  min-height: 500px;
-
-  margin: 60px auto 50px;
-  padding: 70px 80px;
-
-  background: rgba(255, 255, 255, 0.55);
-  border: 1px solid #d6e4f1;
-  border-radius: 14px;
-
-  display: flex;
-  align-items: center;
-}
-
-.intro-main {
-  max-width: 1100px;
-}
-
-.intro-main h1 {
-  font-size: 4.5rem;
-  line-height: 1.05;
-  margin: 15px 0 25px;
-}
-
-.intro-main p {
-  color: #657586;
-  font-size: 1.2rem;
-}
-
-.intro-label {
-  color: #6f94bd;
-  font-size: 0.8rem;
-  letter-spacing: 0.12em;
 }
