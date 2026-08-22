@@ -1,0 +1,106 @@
+/* =========================================
+   AUTHOR PAGE
+   ========================================= */
+
+
+/* Overall layout */
+
+.author-layout {
+  width: 90%;
+  max-width: 1350px;
+  margin: 60px auto 100px;
+
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 70px;
+}
+
+
+/* Left sidebar */
+
+.author-sidebar {
+  padding-top: 10px;
+}
+
+.author-photo {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+
+  border-radius: 28px;
+  margin-bottom: 30px;
+}
+
+.author-sidebar h2 {
+  font-size: 1.6rem;
+  margin: 0 0 15px;
+}
+
+.author-role,
+.author-affiliation {
+  color: #657586;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+
+/* Links */
+
+.author-links {
+  margin-top: 25px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.author-links a {
+  text-decoration: none;
+}
+
+
+/* Main content */
+
+.author-main {
+  max-width: 850px;
+}
+
+.author-main h1 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+  margin: 0 0 30px;
+}
+
+.author-main h2 {
+  font-size: 2rem;
+  margin: 45px 0 15px;
+}
+
+.author-main p {
+  margin-bottom: 20px;
+}
+
+.author-intro {
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+
+/* Mobile */
+
+@media (max-width: 800px) {
+
+  .author-layout {
+    width: 90%;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .author-sidebar {
+    max-width: 280px;
+  }
+
+  .author-main h1 {
+    font-size: 2.6rem;
+  }
+}

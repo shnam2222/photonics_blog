@@ -3,6 +3,7 @@ title: "Photonics Notes"
 title-block-banner: false
 toc: false
 page-layout: full
+css: css/home.css
 ---
 <div class="intro-panel">
 
