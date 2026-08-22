@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://shnam2222.github.io/photonics_blog/posts/welcome/index.html</loc>
-    <lastmod>2026-08-22T16:10:34.700Z</lastmod>
-  </url>
-  <url>
     <loc>https://shnam2222.github.io/photonics_blog/index.html</loc>
-    <lastmod>2026-08-22T16:18:06.813Z</lastmod>
+    <lastmod>2026-08-22T18:16:07.426Z</lastmod>
   </url>
   <url>
-    <loc>https://shnam2222.github.io/photonics_blog/about.html</loc>
-    <lastmod>2026-08-22T16:10:34.711Z</lastmod>
-  </url>
-  <url>
-    <loc>https://shnam2222.github.io/photonics_blog/posts/post-with-code/index.html</loc>
-    <lastmod>2026-08-22T16:10:34.705Z</lastmod>
+    <loc>https://shnam2222.github.io/photonics_blog/author.html</loc>
+    <lastmod>2026-08-22T16:24:38.618Z</lastmod>
   </url>
 </urlset>

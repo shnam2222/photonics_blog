@@ -2,17 +2,31 @@ project:
   type: website
 
 website:
-  title: "Research Notes"
-  description: "Notes on photonics, nanophotonics, inverse design, and related research."
+  title: "Photonics Notes"
+  description: "Notes, tutorials, and perspectives on modern photonics."
   site-url: https://shnam2222.github.io/photonics_blog/
-  repo-url: https://github.com/shnam2222/photonics_blog
 
   navbar:
+    left:
+      - text: Foundations
+        href: foundations/index.qmd
+
+      - text: Resonances
+        href: resonances/index.qmd
+
+      - text: Metasurfaces
+        href: metasurfaces/index.qmd
+
+      - text: Computational
+        href: computational/index.qmd
+
+      - text: Research
+        href: research/index.qmd
+
     right:
-      - text: Home
-        href: index.qmd
-      - text: About
-        href: about.qmd
+      - text: Author
+        href: author.qmd
+
       - icon: github
         href: https://github.com/shnam2222
 

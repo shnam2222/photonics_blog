@@ -1,11 +1,80 @@
 ---
-title: "Research Notes"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+title: "Photonics Notes"
+title-block-banner: false
+toc: false
 page-layout: full
 ---
+<div class="intro-panel">
+
+<div class="intro-main">
+
+<span class="intro-label">INTRODUCTION</span>
+
+<h1>Exploring light, resonance, and computation.</h1>
+
+<p>
+Notes, tutorials, and perspectives on modern photonics.
+</p>
+
+</div>
+
+</div>
+
+
+## Explore
+
+<div class="portal-grid">
+
+<div class="portal-card">
+<a href="foundations/">
+<span>01 / FOUNDATIONS</span>
+<h3>Foundations</h3>
+<p>Electromagnetism, polarization, waveguides, and the fundamental tools of photonics.</p>
+</a>
+</div>
+
+<div class="portal-card">
+<a href="resonances/">
+<span>02 / RESONANCES</span>
+<h3>Optical Resonances</h3>
+<p>Guided-mode resonances, plasmons, coupled-mode theory, QNMs, BICs, and more.</p>
+</a>
+</div>
+
+<div class="portal-card">
+<a href="metasurfaces/">
+<span>03 / METASURFACES</span>
+<h3>Metasurfaces</h3>
+<p>Huygens metasurfaces, geometric phase, resonant structures, and active control.</p>
+</a>
+</div>
+
+<div class="portal-card">
+<a href="computational/">
+<span>04 / COMPUTATIONAL</span>
+<h3>Computational & AI Photonics</h3>
+<p>Numerical simulation, inverse design, optimization, and machine learning.</p>
+</a>
+</div>
+
+<div class="portal-card">
+<a href="research/">
+<span>05 / RESEARCH</span>
+<h3>My Research</h3>
+<p>Research projects, technical notes, simulations, and ongoing ideas.</p>
+</a>
+</div>
+
+<div class="portal-card">
+<a href="special-topics/">
+<span>06 / SPECIAL TOPICS</span>
+<h3>Special Topics</h3>
+<p>Guest contributions, research perspectives, and focused topics.</p>
+</a>
+</div>
+
+</div>
+
+## Recent Topics
+
+New articles and research notes will appear here.
