@@ -5,13 +5,20 @@ toc: false
 page-layout: full
 css: css/home.css
 ---
-<div class="intro-panel">
 
-<div class="intro-main">
+<div class="home-intro">
 
-<span class="intro-label">INTRODUCTION</span>
+<div class="home-intro-text">
 
-<h1>Exploring light, resonance, and computation.</h1>
+<div class="home-kicker">
+INTRODUCTION
+</div>
+
+<h1>
+Exploring light,<br>
+resonance, and<br>
+computation.
+</h1>
 
 <p>
 Notes, tutorials, and perspectives on modern photonics.
@@ -19,8 +26,12 @@ Notes, tutorials, and perspectives on modern photonics.
 
 </div>
 
+<div class="home-intro-visual">
+<img src="intro_nanobanana.png"
+     alt="Metasurface illuminated by an optical beam">
 </div>
 
+</div>
 
 ## Explore
 
