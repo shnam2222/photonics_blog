@@ -13,6 +13,9 @@ main.content {
   width: 100% !important;
 }
 
+.quarto-title h1.title {
+  display: none !important;
+}
 
 /* =========================================
    Main layout
@@ -46,6 +49,21 @@ main.content {
   font-size: 0.8rem;
   letter-spacing: 0.12em;
 } */
+ 
+.topic-kicker {
+  display: none !important;
+}
+
+.topic-reference {
+  margin-top: 10px;
+
+  font-size: 0.25rem;
+  /* font-style: italic; */
+  line-height: 1.4;
+
+  color: #657586;
+  text-align: right;
+}
 
 .topic-intro h1 {
   margin: 0 0 28px 0;
@@ -59,6 +77,8 @@ main.content {
   margin: 0;
 
   color: #657586;
+  text-align: justify;
+  text-justify: inter-word;
 
   font-size: 1.1rem;
   line-height: 1.7;

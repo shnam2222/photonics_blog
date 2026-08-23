@@ -1,5 +1,5 @@
 ---
-# title: "Optical Resonances"
+title: "Optical Resonances"
 title-block-banner: false
 toc: false
 page-layout: full
@@ -14,8 +14,7 @@ OPTICAL RESONANCES
 </div>
 
 <h1>
-Understanding resonant behavior<br>
-in photonic systems.
+Understanding resonant behavior in photonic systems.
 </h1>
 
 <p>
@@ -23,6 +22,31 @@ This section collects my notes on optical resonances,
 from their basic physical interpretation to the mathematical
 frameworks used to describe resonant photonic systems.
 </p>
+
+### What are optical resonances?
+
+Optical, or more generally electromagnetic (EM), resonances arise when light is temporarily confined or strongly concentrated within a finite region of space rather than immediately scattering away through radiative channels. For a given photonic structure, resonances occur at particular frequencies where Maxwell’s equations and the electromagnetic boundary conditions support characteristic field patterns. Within these resonant states, electromagnetic energy oscillates between electric and magnetic forms while loss through radiative channels or material absorption is rather gradual. The extent to which a resonance can be excited from the outside depends additionally on properties of the incident light, such as its momentum and polarization[1]. <br>
+These resonances appear as characteristic features in the optical response of a system, such as peaks or dips in experimentally measured transmission and reflection spectra. However, resonances carry a deeper physical meaning than the spectral feature through which it is observed. It represents an intrinsic electromagnetic state of the photonic system and therefore provides a fundamental description of how the structure stores, confines, and couples electromagnetic energy. In this sense, understanding the resonances of a photonic device provides a direct route to understanding its interaction with light.
+
+<div class="topic-reference">
+  [1]: <i>Karavaev, I., et al., Newton (2026).</i>
+</div>
+
+### Why are optical resonances important?
+
+Resonances are central to many optical devices because they allow strong electromagnetic effects to be produced within structures much smaller than the propagation distance that would otherwise be required.<br>
+One important consequence is enhanced light–matter interaction. By concentrating electromagnetic energy in space and increasing the time over which the field interacts with a material, resonant structures can strongly enhance processes such as spontaneous emission, nonlinear frequency conversion including second- and third-harmonic generation, Raman scattering, absorption, sensing, and interactions with excitons or other quantum emitters.<br>
+A second consequence is an enhanced effective optical path length. Light can undergo repeated interactions with a resonant structure even when the physical thickness of the device is deeply subwavelength. This makes it possible to obtain large changes in phase, amplitude, polarization, or absorption from relatively small changes in refractive index or material properties, which is particularly important for compact modulators and actively tunable photonic devices.<br>
+A third important role is spectral and spatial selectivity. Resonances allow a device to interact strongly with selected frequencies, polarizations, propagation directions, or radiation channels while remaining weakly coupled to others. This selectivity forms the basis of narrowband filters, directional emitters, perfect absorbers, high-sensitivity sensors, and many metasurface functionalities.
+
+
+### How will we approach optical resonances?
+
+There are several complementary ways to understand a resonant photonic system.<br>
+We will first introduce a rigorous modal picture using quasinormal modes. Because realistic optical resonators are open systems that radiate energy into their surroundings, their natural modes generally possess complex eigenfrequencies. Quasinormal-mode analysis provides a direct connection between these complex eigenfrequencies, resonance lifetimes, quality factors, and the spatial electromagnetic fields of the resonator.<br>
+We will then examine how these resonant modes interact with external radiation using temporal coupled-mode theory. Rather than focusing on the full electromagnetic field, temporal coupled-mode theory describes the exchange of energy between a small number of resonant modes and incoming or outgoing radiation channels. This framework makes concepts such as radiative decay, critical coupling, interference, and resonant scattering particularly transparent.<br>
+Finally, we will study several important families of resonances encountered in nanophotonic systems. These include Mie resonances supported by individual dielectric particles, guided-mode and photonic-crystal resonances originating from periodic structures, and high-Q states such as bound states in the continuum and quasi-BICs. Photonic crystals will be especially important in this discussion because periodicity introduces Bloch modes and photonic band structures, providing another route to confine and manipulate electromagnetic waves and serving as the foundation for many guided resonances and BIC-based structures.<br>
+Together, these viewpoints will let us move between three complementary questions: What is the resonant mode? How does it couple to the outside world? And what physical mechanism produces it in a particular photonic structure?
 
 </div>
 
