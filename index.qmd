@@ -11,29 +11,30 @@ css: css/home.css
 <div class="home-intro-text">
 
 <div class="home-kicker">
-INTRODUCTION
 </div>
 
 <h1>
-Exploring light,<br>
-resonance, and<br>
-computation.
+Exploring the interaction between light and matter
 </h1>
 
 <p>
-Notes, tutorials, and perspectives on modern photonics.
+I am a Ph.D. student in Korea studying nanophotonics, a field that explores how light interacts with matter at sub-wavelength scales. This blog is a record of my journey through that field: **what I learn, what confuses me, and how my understanding develops over time**. The notes are built upon my understandings, with the assistance of research papers, lecture materials, textbooks, discussions, and of course, generative AI. My hope is that documenting the process of learning nanophotonics will be useful not only to me, but also to others exploring the same questions.
 </p>
 
 </div>
 
 <div class="home-intro-visual">
-<img src="intro_nanobanana.png"
+  <img src="intro_nanobanana.png"
      alt="Metasurface illuminated by an optical beam">
-</div>
+
+  <small class="image-credit">Image generated with Nano Banana.</small>
+  </div>
 
 </div>
 
-## Explore
+</div>
+
+## Topics
 
 <div class="portal-grid">
 
