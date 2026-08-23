@@ -1,5 +1,5 @@
 ---
-title: "Optical Resonances"
+# title: "Optical Resonances"
 title-block-banner: false
 toc: false
 page-layout: full

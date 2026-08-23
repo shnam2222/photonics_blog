@@ -25,7 +25,7 @@
     "href": "index.html#recent-topics",
     "title": "Photonics Notes",
     "section": "Recent Topics",
-    "text": "Recent Topics\nNew articles and research notes will appear here."
+    "text": "Recent Topics\nNew articles and research notes will appear here.\n\n\n\n\n\n\nExploring the interaction between light and matter\n\n\nI am a Ph.D. student in Korea studying nanophotonics, a field that explores how light interacts with matter at sub-wavelength scales. This blog is a record of my journey through that field: what I learn, what confuses me, and how my understanding develops over time. The notes are built upon my understandings, with the assistance of research papers, lecture materials, textbooks, discussions, and of course, generative AI. My hope is that documenting the process of learning nanophotonics will be useful not only to me, but also to others exploring the same questions.\n\n\n\n\nImage generated with Nano Banana."
   },
   {
     "objectID": "author.html",
@@ -44,8 +44,22 @@
   {
     "objectID": "resonances/index.html",
     "href": "resonances/index.html",
-    "title": "Optical Resonances",
+    "title": "\nUnderstanding resonant behavior in photonic systems.\n",
     "section": "",
-    "text": "OPTICAL RESONANCES\n\n\nUnderstanding resonant behavior in photonic systems.\n\n\nThis section collects my notes on optical resonances, from their basic physical interpretation to the mathematical frameworks used to describe resonant photonic systems.\n\n\n\n 01 Quality Factor Read → \n 02 Temporal Coupled-Mode Theory Read → \n 03 Quasinormal Modes Read → \n 04 Critical Coupling Read → \n 05 Fano Resonances Read → \n 06 Bound States in the Continuum Read →"
+    "text": "OPTICAL RESONANCES\n\n\nUnderstanding resonant behavior in photonic systems.\n\n\nThis section collects my notes on optical resonances, from their basic physical interpretation to the mathematical frameworks used to describe resonant photonic systems.\n\n\n\n 01 Quality Factor Read → \n 02 Temporal Coupled-Mode Theory Read → \n 03 Quasinormal Modes Read → \n 04 Critical Coupling Read → \n 05 Fano Resonances Read → \n 06 Bound States in the Continuum Read → \n\n\n\n\n\n\n\nOPTICAL RESONANCES\n\n\nUnderstanding resonant behavior in photonic systems.\n\n\nThis section collects my notes on optical resonances, from their basic physical interpretation to the mathematical frameworks used to describe resonant photonic systems.\n\n\n\n 01 Quality Factor Read → \n 02 Temporal Coupled-Mode Theory Read → \n 03 Quasinormal Modes Read → \n 04 Critical Coupling Read → \n 05 Fano Resonances Read → \n 06 Bound States in the Continuum Read →"
+  },
+  {
+    "objectID": "index.html#topics-1",
+    "href": "index.html#topics-1",
+    "title": "Photonics Notes",
+    "section": "Topics",
+    "text": "Topics\n\n\n 01 / FOUNDATIONS\n\nFoundations\n\n\nElectromagnetism, polarization, waveguides, and the fundamental tools of photonics.\n\n\n\n\n 02 / RESONANCES\n\nOptical Resonances\n\n\nGuided-mode resonances, plasmons, coupled-mode theory, QNMs, BICs, and more.\n\n\n\n\n 03 / METASURFACES\n\nMetasurfaces\n\n\nHuygens metasurfaces, geometric phase, resonant structures, and active control.\n\n\n\n\n 04 / COMPUTATIONAL\n\nComputational & AI Photonics\n\n\nNumerical simulation, inverse design, optimization, and machine learning.\n\n\n\n\n 05 / RESEARCH\n\nMy Research\n\n\nResearch projects, technical notes, simulations, and ongoing ideas.\n\n\n\n\n 06 / SPECIAL TOPICS\n\nSpecial Topics\n\n\nGuest contributions, research perspectives, and focused topics."
+  },
+  {
+    "objectID": "index.html#recent-topics-1",
+    "href": "index.html#recent-topics-1",
+    "title": "Photonics Notes",
+    "section": "Recent Topics",
+    "text": "Recent Topics\nNew articles and research notes will appear here."
   }
 ]

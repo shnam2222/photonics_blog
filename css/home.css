@@ -13,11 +13,16 @@ main.content {
   width: 100% !important;
 }
 
+.quarto-title h1.title {
+  display: none !important;
+}
 
 /* =========================================
    Intro
    ========================================= */
 
+
+   
 .home-intro {
   width: 92%;
   margin: 60px auto 50px;
@@ -41,12 +46,12 @@ main.content {
   min-width: 0;
 }
 
-.home-kicker {
+/* .home-kicker {
   color: #6f94bd;
   font-size: 0.8rem;
   letter-spacing: 0.12em;
   margin-bottom: 20px;
-}
+} */
 
 .home-intro-text h1 {
   font-size: 2.5rem;
