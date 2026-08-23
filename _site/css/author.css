@@ -2,12 +2,25 @@
    AUTHOR PAGE
    ========================================= */
 
+/* Make author page use full available width */
+
+main.content {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+.quarto-container,
+.page-columns {
+  max-width: none !important;
+  width: 100% !important;
+}
+
 
 /* Overall layout */
 
 .author-layout {
   width: 90%;
-  max-width: 1350px;
+  max-width: none;
   margin: 60px auto 100px;
 
   display: grid;
@@ -88,7 +101,7 @@
 
 /* Mobile */
 
-@media (max-width: none) {
+@media (max-width:  800px) {
 
   .author-layout {
     width: 90%;

@@ -1,3 +1,5 @@
 ---
 title: "Foundations"
 ---
+
+![](tmp_dark.png){fig-align="center" width="75%"}

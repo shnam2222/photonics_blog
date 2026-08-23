@@ -1,0 +1,567 @@
+# ============================================================
+# UNIVERSAL SCIENTIFIC FIGURE STYLE
+# ============================================================
+#
+# Purpose:
+#   Master visual style for all figures in the blog.
+#
+# Philosophy:
+#   - soft
+#   - rounded
+#   - minimal
+#   - modern
+#   - scientific
+#   - consistent with the homepage
+#
+# This file should define appearance only.
+# Topic-specific meaning should live in the individual scene.
+# ============================================================
+
+
+identity:
+  name: "Sunghyun Blog Figure Style"
+  version: "1.0"
+  style: "soft-minimal-scientific"
+
+
+# ============================================================
+# CANVAS
+# ============================================================
+
+canvas:
+  background: "#F3F1EC"
+
+  aspect_ratios:
+    landscape: "16:9"
+    square: "1:1"
+    portrait: "4:5"
+
+  resolution:
+    width: 1920
+    height: 1080
+
+  margins:
+    outer: 0.60
+    inner: 0.30
+
+  whitespace:
+    generous: true
+
+
+# ============================================================
+# COLOR SYSTEM
+# ============================================================
+
+colors:
+
+  background: "#F3F1EC"
+
+  foreground:
+    # very dark navy-blue instead of gray
+    primary: "#172A3A"
+    secondary: "#34495A"
+    muted: "#748391"
+
+  neutral:
+    50:  "#F7F6F2"
+    100: "#ECEAE4"
+    200: "#DDE1E4"
+    300: "#C8D0D6"
+    400: "#A7B2BA"
+    500: "#7E8C97"
+    600: "#5B6B78"
+    700: "#40515F"
+    800: "#2A3D4C"
+    900: "#172A3A"
+
+  palette:
+    blue:
+      main: "#6F93B2"
+      light: "#C7D7E3"
+      dark: "#365B78"
+
+    teal:
+      main: "#6F9E9A"
+      light: "#C7D9D5"
+      dark: "#456F6B"
+
+    green:
+      main: "#7F9B82"
+      light: "#CCD8C9"
+      dark: "#58715A"
+
+    orange:
+      main: "#C18A5A"
+      light: "#DEC1A6"
+      dark: "#8D603D"
+
+    red:
+      main: "#B76D72"
+      light: "#DAB2B5"
+      dark: "#854B50"
+
+    purple:
+      main: "#8982A8"
+      light: "#CBC7DB"
+      dark: "#5E587D"
+
+
+# ============================================================
+# TYPOGRAPHY
+# ============================================================  
+
+typography:
+
+  fonts:
+    sans: "Microsoft Sans Serif"
+    math: "STIX Two Math"
+    mono: "Consolas"
+
+  default_family: "Arial"
+
+  color:
+    primary: "#172A3A"
+    secondary: "#34495A"
+    muted: "#748391"
+
+  sizes:
+    title: 42
+    heading: 34
+    subheading: 30
+    body: 27
+    label: 24
+    annotation: 21
+    small: 18
+
+    math: 30
+    math_large: 36
+    math_small: 24
+
+  weights:
+    title: "SEMIBOLD"
+    heading: "MEDIUM"
+    body: "NORMAL"
+    label: "NORMAL"
+
+  spacing:
+    line_height: 1.15
+    tracking: 0.0
+
+  alignment:
+    default: "left"
+
+
+# ============================================================
+# STROKES
+# ============================================================
+
+strokes:
+
+  width:
+    hairline: 1.2
+    thin: 1.8
+    normal: 2.6
+    medium: 3.2
+    thick: 4.0
+    emphasis: 5.0
+
+  color:
+    primary: "#172A3A"
+    secondary: "#52799A"
+    muted: "#9BA8B2"
+
+  caps:
+    default: "round"
+
+  joins:
+    default: "round"
+
+
+# ============================================================
+# SHAPES
+# ============================================================
+
+shapes:
+
+  corners:
+    small: 0.08
+    normal: 0.16
+    large: 0.28
+    pill: 0.50
+
+  fill:
+    primary: "#CBD9E3"
+    secondary: "#D9E1E5"
+    accent: "#B9CFDC"
+
+    default_opacity: 0.92
+    soft_opacity: 0.72
+    subtle_opacity: 0.20
+
+  outline:
+    color: "#394955"
+    width: 2.6
+
+  circle:
+    outline_width: 3.2
+
+  rectangle:
+    corner_radius: 0.16
+
+  rounded_rectangle:
+    corner_radius: 0.24
+
+
+# ============================================================
+# Surfaces
+# ============================================================
+
+surfaces:
+
+  primary:
+    fill: "#CBD9E3"
+    stroke: "#172A3A"
+
+  secondary:
+    fill: "#DCE4E7"
+    stroke: "#34495A"
+
+  accent:
+    fill: "#B9CFDC"
+    stroke: "#365B78"
+
+# ============================================================
+# LINES
+# ============================================================
+
+lines:
+
+  default:
+    color: "#52606D"
+    width: 2.6
+    opacity: 1.0
+
+  secondary:
+    color: "#82909C"
+    width: 2.2
+    opacity: 0.85
+
+  guide:
+    color: "#A8B0B6"
+    width: 1.8
+    opacity: 0.65
+
+  dashed:
+    dash_length: 0.18
+    gap_length: 0.14
+    width: 2.6
+    cap: "round"
+
+  dotted:
+    dot_radius: 0.035
+    gap: 0.12
+
+
+# ============================================================
+# ARROWS
+# ============================================================
+
+arrows:
+
+  color: "#172A3A"
+  stroke_width: 3.0
+
+  tip:
+    length: 0.20
+
+  geometry:
+    rounded: true
+    shaft_cap: "round"
+    buff: 0.06
+
+    primary:
+      color: "#172A3A"
+      width: 3.0
+
+    secondary:
+      color: "#52799A"
+      width: 2.8
+
+    tertiary:
+      color: "#8A9AA7"
+      width: 2.6
+
+
+# ============================================================
+# CONNECTORS
+# ============================================================
+
+connectors:
+
+  color: "#82909C"
+  width: 2.4
+
+  curvature:
+    default: 0.12
+    soft: 0.20
+
+  endpoints:
+    rounded: true
+
+
+# ============================================================
+# LABELS
+# ============================================================
+
+labels:
+
+  color: "#24313D"
+
+  font_size: 24
+
+  background:
+    enabled: false
+    color: "#FAFAF8"
+    opacity: 0.90
+
+  padding:
+    horizontal: 0.12
+    vertical: 0.06
+
+  offset:
+    default: 0.18
+    small: 0.10
+    large: 0.28
+
+
+# ============================================================
+# ANNOTATIONS
+# ============================================================
+
+annotations:
+
+  text:
+    color: "#52606D"
+    size: 20
+
+  line:
+    color: "#82909C"
+    width: 1.8
+
+  highlight:
+    color: "#6F91B3"
+    opacity: 0.18
+
+
+# ============================================================
+# AXES
+# ============================================================
+
+axes:
+
+  color: "#52606D"
+  width: 1.8
+
+  ticks:
+    color: "#82909C"
+    width: 1.4
+    length: 0.08
+
+  labels:
+    color: "#52606D"
+    size: 20
+
+  grid:
+    enabled: false
+    color: "#DFE2E3"
+    width: 1.0
+    opacity: 0.55
+
+
+# ============================================================
+# PLOTS
+# ============================================================
+
+plots:
+
+  line_width: 2.6
+
+  marker:
+    size: 5
+    edge_width: 1.2
+
+  grid:
+    enabled: false
+
+  frame:
+    top: false
+    right: false
+
+  series_order:
+    - "#6F91B3"
+    - "#B87878"
+    - "#7E9E83"
+    - "#C89263"
+    - "#8B84A8"
+    - "#72A0A0"
+
+
+# ============================================================
+# PANELS / CARDS
+# ============================================================
+
+panels:
+
+  background: "#FFFFFF"
+
+  border:
+    color: "#DFE2E3"
+    width: 1.4
+
+  corner_radius: 0.22
+
+  padding: 0.30
+
+  shadow:
+    enabled: false
+
+
+# ============================================================
+# EMPHASIS
+# ============================================================
+
+emphasis:
+
+  primary:
+    color: "#486A89"
+
+  secondary:
+    color: "#8B84A8"
+
+  warning:
+    color: "#C89263"
+
+  negative:
+    color: "#B87878"
+
+  positive:
+    color: "#7E9E83"
+
+  highlight_opacity: 0.18
+
+
+# ============================================================
+# DEPTH / LAYERS
+# ============================================================
+
+layers:
+
+  background: 0
+  guides: 10
+  shapes: 20
+  connectors: 30
+  arrows: 40
+  labels: 50
+  annotations: 60
+
+
+# ============================================================
+# LAYOUT
+# ============================================================
+
+layout:
+
+  spacing:
+    xs: 0.10
+    sm: 0.18
+    md: 0.32
+    lg: 0.52
+    xl: 0.80
+    xxl: 1.10
+
+  alignment:
+    prefer_symmetry: true
+    prefer_visual_balance: true
+
+  composition:
+    avoid_edge_crowding: true
+    prefer_centered_subject: true
+    use_generous_whitespace: true
+
+
+# ============================================================
+# ANIMATION
+# ============================================================
+
+animation:
+
+  duration:
+    fast: 0.35
+    normal: 0.60
+    slow: 1.00
+
+  easing:
+    default: "smooth"
+
+  transitions:
+    subtle: true
+
+  movement:
+    prefer_small_displacements: true
+    avoid_bouncy_motion: true
+
+  fade:
+    default_duration: 0.45
+
+
+# ============================================================
+# EXPORT
+# ============================================================
+
+export:
+
+  raster:
+    format: "png"
+    transparent_background: false
+
+  video:
+    format: "mp4"
+    fps: 30
+
+  quality:
+    default: "high"
+
+  anti_aliasing: true
+
+
+# ============================================================
+# GLOBAL VISUAL RULES
+# ============================================================
+
+rules:
+
+  prefer:
+    - rounded_geometry
+    - rounded_line_caps
+    - soft_arrowheads
+    - restrained_colors
+    - muted_contrast
+    - generous_whitespace
+    - simple_hierarchy
+    - consistent_spacing
+    - clean_math
+    - minimal_annotations
+
+  avoid:
+    - pure_black
+    - pure_white_as_primary_shape_fill
+    - neon_colors
+    - gradients_without_meaning
+    - sharp_corners
+    - very_thin_lines
+    - dense_text
+    - excessive_borders
+    - heavy_shadows
+    - decorative_3d_effects
+    - inconsistent_font_sizes
+    - inconsistent_arrow_styles
