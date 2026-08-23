@@ -29,7 +29,7 @@ Optical, or more generally electromagnetic (EM), resonances arise when light is 
 These resonances appear as characteristic features in the optical response of a system, such as peaks or dips in experimentally measured transmission and reflection spectra. However, resonances carry a deeper physical meaning than the spectral feature through which it is observed. It represents an intrinsic electromagnetic state of the photonic system and therefore provides a fundamental description of how the structure stores, confines, and couples electromagnetic energy. In this sense, understanding the resonances of a photonic device provides a direct route to understanding its interaction with light.
 
 <div class="topic-reference">
-  [1]: <i>Karavaev, I., et al., Newton (2026).</i>
+  [1]: [<i>Karavaev, I., et al., Newton (2026).</i>](https://www.cell.com/newton/fulltext/S2950-6360(26)00198-2)
 </div>
 
 ### Why are optical resonances important?
