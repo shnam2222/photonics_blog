@@ -1,3 +1,68 @@
 ---
-title: "Foundations"
+title: "Optical Resonances"
+title-block-banner: false
+toc: false
+page-layout: full
+css: ../css/optical-resonances.css
 ---
+
+<div class="topic-page">
+<div class="topic-intro">
+
+<div class="topic-kicker">
+OPTICAL RESONANCES
+</div>
+
+<h1>
+Understanding resonant behavior<br>
+in photonic systems.
+</h1>
+
+<p>
+This section collects my notes on optical resonances,
+from their basic physical interpretation to the mathematical
+frameworks used to describe resonant photonic systems.
+</p>
+
+</div>
+
+<div class="topic-list">
+
+<a href="quality-factor.html" class="topic-item">
+<span class="topic-number">01</span>
+<span class="topic-name">Quality Factor</span>
+<span class="topic-link">Read →</span>
+</a>
+
+<a href="coupled-mode-theory.html" class="topic-item">
+<span class="topic-number">02</span>
+<span class="topic-name">Temporal Coupled-Mode Theory</span>
+<span class="topic-link">Read →</span>
+</a>
+
+<a href="quasinormal-modes.html" class="topic-item">
+<span class="topic-number">03</span>
+<span class="topic-name">Quasinormal Modes</span>
+<span class="topic-link">Read →</span>
+</a>
+
+<a href="critical-coupling.html" class="topic-item">
+<span class="topic-number">04</span>
+<span class="topic-name">Critical Coupling</span>
+<span class="topic-link">Read →</span>
+</a>
+
+<a href="fano-resonances.html" class="topic-item">
+<span class="topic-number">05</span>
+<span class="topic-name">Fano Resonances</span>
+<span class="topic-link">Read →</span>
+</a>
+
+<a href="bic.html" class="topic-item">
+<span class="topic-number">06</span>
+<span class="topic-name">Bound States in the Continuum</span>
+<span class="topic-link">Read →</span>
+</a>
+
+</div>
+</div>
