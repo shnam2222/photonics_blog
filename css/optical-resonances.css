@@ -38,13 +38,14 @@ main.content {
   min-width: 0;
 }
 
+/* 
 .topic-kicker {
   margin-bottom: 22px;
 
   color: #6f94bd;
   font-size: 0.8rem;
   letter-spacing: 0.12em;
-}
+} */
 
 .topic-intro h1 {
   margin: 0 0 28px 0;
