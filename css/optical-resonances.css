@@ -1,0 +1,188 @@
+/* =========================================
+   OPTICAL RESONANCES
+   ========================================= */
+
+main.content {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+.quarto-container,
+.page-columns {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+
+/* =========================================
+   Main layout
+   ========================================= */
+
+.topic-page {
+  width: 90%;
+  margin: 70px auto 80px;
+
+  display: grid;
+  grid-template-columns: 75% 25%;
+  gap: 80px;
+
+  align-items: start;
+}
+
+
+/* =========================================
+   Left intro
+   ========================================= */
+
+.topic-intro {
+  min-width: 0;
+}
+
+.topic-kicker {
+  margin-bottom: 22px;
+
+  color: #6f94bd;
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+}
+
+.topic-intro h1 {
+  margin: 0 0 28px 0;
+
+  font-size: 2.8rem;
+  line-height: 1.08;
+}
+
+.topic-intro p {
+  max-width: 680px;
+  margin: 0;
+
+  color: #657586;
+
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   Right topic list
+   ========================================= */
+
+.topic-list {
+  width: 100%;
+
+  border-top: 1px solid #d6e4f1;
+}
+
+.topic-item {
+  display: grid;
+  grid-template-columns: 48px 1fr auto;
+
+  align-items: center;
+  gap: 14px;
+
+  min-height: 72px;
+  padding: 0 8px;
+
+  border-bottom: 1px solid #d6e4f1;
+
+  color: inherit;
+  text-decoration: none;
+
+  transition:
+    padding-left 0.2s ease,
+    color 0.2s ease;
+}
+
+.topic-number {
+  color: #9aa8b7;
+
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+}
+
+.topic-name {
+  font-size: 1.08rem;
+  font-weight: 500;
+}
+
+.topic-link {
+  color: #6f94bd;
+
+  font-size: 0.75rem;
+
+  opacity: 0;
+  transform: translateX(-6px);
+
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+
+/* Hover */
+
+.topic-item:hover {
+  padding-left: 14px;
+
+  color: #6f94bd;
+}
+
+.topic-item:hover .topic-link {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+/* =========================================
+   Mobile
+   ========================================= */
+
+@media (max-width: 800px) {
+
+  .topic-page {
+    width: 90%;
+    margin: 40px auto;
+
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .topic-intro h1 {
+    font-size: 2.3rem;
+  }
+
+  .topic-item {
+    grid-template-columns: 38px 1fr auto;
+  }
+
+  .topic-link {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* =========================================
+   Hidden topic list
+   ========================================= */
+
+.topic-list {
+  width: 100%;
+  border-top: 1px solid transparent;
+
+  opacity: 0.08;
+  filter: blur(1.5px);
+
+  transition:
+    opacity 0.3s ease,
+    filter 0.3s ease;
+}
+
+.topic-list:hover {
+  opacity: 1;
+  filter: blur(0);
+}
+
+.topic-list:hover {
+  border-top-color: #d6e4f1;
+}
